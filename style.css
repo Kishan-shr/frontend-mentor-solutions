@@ -114,7 +114,7 @@ button[type="submit"]:hover {
   text-align: center;
   position: absolute;
   bottom: 706px;
-  right: 200pxpx
+  right: 200px;
 }
 @media(max-width:786px) {
   body {
@@ -143,7 +143,6 @@ button[type="submit"]:hover {
     margin-top: 15px; /* Add spacing above the submit button */
   }
   .success-message {
-    display: none;
     bottom: -290px;
   }
   
