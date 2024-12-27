@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="./contact-form-main/assets/images/favicon-32x32.png" type="image/favicon-32x32">
+  <link href="https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Contact Us Form</title>
+</head>
+<body>
+  <div class="success-message" id="successMessage">
+    <strong>Message Sent !</strong><br/> Thanks for completing the form. We’ll be in touch soon!
+  </div>
+  <div class="form-container">
+    <h1>Contact us</h1>
+    <form id="contactForm" name="contactForm">
+      <div class="input-control" id="row">
+
+        <div class="input-control"  id="text">
+          <label for="fName">First Name *</label>
+          <input id="fName" type="text" placeholder="First Name">
+          <span class="error"></span>
+        </div>
+        
+        <div class="input-control" id="text">
+          <label for="lName">Last Name *</label>
+          <input id="lName" type="text" placeholder="Last Name">
+          <span class="error"></span>
+        </div>
+      </div>
+
+      <div class="input-control">
+        <label for="email">Email Address *</label>
+        <input id="email" type="email" placeholder="example@gmail.com">
+        <span class="error"></span>
+      </div>
+
+      <div class="input-control" id="queryType">
+        <label>Query Type *</label>
+        <div class="query-type">
+          <label class="query-option"><input type="radio" name="option" value="1"> General Enquiry</label>
+          <label class="query-option"><input type="radio" name="option" value="2"> Support Request</label>
+        </div>
+        <span class="error"></span>
+      </div>
+
+      <div class="input-control">
+        <label for="message">Message *</label>
+        <textarea id="message" rows="4" placeholder="Enter your message here"></textarea>
+        <span class="error"></span>
+      </div>
+
+      <div class="input-control">
+        <label><input type="checkbox" id="consent"> I consent to being contacted by the team *</label>
+        <span class="error"></span>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <footer>
+      <p class="footerText">&copy; Made With ❤</p>
+    </footer>
+  </div>
+</body>
+</html>
