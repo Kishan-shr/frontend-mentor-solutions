@@ -116,6 +116,38 @@ button[type="submit"]:hover {
   bottom: 706px;
   right: 200pxpx
 }
+@media(max-width:786px) {
+  body {
+    height: 150vh; /* Adjust height to fit longer forms on smaller screens */
+  }
+
+  .form-container {
+    max-width: 300px; /* Restrict form width for smaller screens */
+    padding: 20px 45px;
+  }
+
+  #row {
+    display: block; /* Stack elements vertically */
+  }
+
+  .query-type {
+    display: block; /* Stack query type radio buttons vertically */
+  }
+
+  .query-type label {
+    height: 30px;
+    width: 100%; /* Ensure labels occupy full width */
+  }
+
+  button[type="submit"] {
+    margin-top: 15px; /* Add spacing above the submit button */
+  }
+  .success-message {
+    display: none;
+    bottom: -290px;
+  }
+  
+}
 
 
 .footerText{
