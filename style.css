@@ -142,9 +142,6 @@ button[type="submit"]:hover {
   button[type="submit"] {
     margin-top: 15px; /* Add spacing above the submit button */
   }
-  .success-message {
-    bottom: -290px;
-  }
   
 }
 
