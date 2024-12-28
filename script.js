@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
     successMessage.style.display = 'block';
     setTimeout(() => {
       successMessage.style.display = 'none'
-    }, 1000);
+    }, 2000);
     form.reset();
     clearStyles();
     
