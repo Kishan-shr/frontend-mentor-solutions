@@ -6,16 +6,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh;
+  height: 100vh;
 }
 
 .form-container {
   background-color: #fff;
-  padding: 20px 30px;
+  padding: 0 30px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 500px;
+  max-width: 350px;
 }
 #row{
   display: flex;
@@ -26,7 +26,7 @@ body {
 }
 
 .input-control {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .input-control label {
@@ -113,17 +113,25 @@ button[type="submit"]:hover {
   border-radius: 5px;
   text-align: center;
   position: absolute;
-  bottom: 706px;
-  right: 200px;
+  bottom: 550px;
 }
 @media(max-width:786px) {
   body {
-    height: 150vh; /* Adjust height to fit longer forms on smaller screens */
+    height: 110vh; /* Adjust height to fit longer forms on smaller screens */
   }
 
   .form-container {
-    max-width: 300px; /* Restrict form width for smaller screens */
-    padding: 20px 45px;
+    max-width: 250px; /* Restrict form width for smaller screens */
+    padding: 0 30px;
+  }
+  .input-control {
+    margin-bottom: -4px;
+}
+  .query-option {
+    padding: 0px;
+}
+    .success-message {
+    position:fixed;
   }
 
   #row {
