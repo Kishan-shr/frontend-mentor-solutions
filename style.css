@@ -109,11 +109,12 @@ button[type="submit"]:hover {
   display: none;
   background-color: #1a573e;
   color: #ffffff;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   text-align: center;
   position: absolute;
-  bottom: 550px;
+  bottom: 573px;
+  font-size: 13px;
 }
 @media(max-width:786px) {
   body {
@@ -131,7 +132,9 @@ button[type="submit"]:hover {
     padding: 0px;
 }
     .success-message {
-    position:fixed;
+     padding: 4px; 
+     bottom: 584px;
+     font-size: 10px;
   }
 
   #row {
