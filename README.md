@@ -1,8 +1,6 @@
 # Frontend Mentor - Contact form
 
 ![Design preview for the Contact form coding challenge](./design/desktop-preview.jpg)
-![Design preview for the Contact form coding challenge](./design/error-state.jpg)
-![Design preview for the Contact form coding challenge](./design/success-state.jpg)
 
 ## Welcome! 👋
 
